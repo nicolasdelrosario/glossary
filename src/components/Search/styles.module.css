@@ -1,0 +1,26 @@
+.search {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+
+	& input {
+		width: 100%;
+		height: 100%;
+		padding: 0 16px;
+		border: 1px solid #f4f4f4;
+		border-radius: var(--rounded-lg);
+		background-color: transparent;
+		transition: ease-in-out 0.3s all;
+	}
+
+	& input:focus {
+		border: 1px solid var(--background-images);
+	}
+
+	& svg {
+		position: absolute;
+		top: 13px;
+		right: 20px;
+		cursor: pointer;
+	}
+}
