@@ -1,0 +1,17 @@
+.definition {
+	margin-top: 70px;
+
+	& h2 {
+		font-size: var(--text-3xl);
+		font-weight: var(--font-semibold);
+	}
+}
+
+@media (width >= 768px) {
+	.definition {
+		& h2 {
+			font-size: var(--text-5xl);
+			font-weight: var(--font-semibold);
+		}
+	}
+}
