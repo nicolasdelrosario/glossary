@@ -1,0 +1,23 @@
+.source {
+	margin-bottom: 16px;
+
+	& hr {
+		margin-bottom: 16px;
+	}
+
+	& div {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		column-gap: 32px;
+		font-size: var(--text-sm);
+
+		& span {
+			color: var(--span-color);
+		}
+
+		& a {
+			text-decoration: underline;
+		}
+	}
+}
