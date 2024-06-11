@@ -1,0 +1,12 @@
+/* NORMALIZE */
+@import url('./normalize.css');
+/* GLOBAL STYLES */
+@import url('./global.css');
+/* CUSTOM STYLES */
+@import url('./custom/border.css');
+@import url('./custom/colors.css');
+@import url('./custom/font-size.css');
+@import url('./custom/font-weight.css');
+/* THEMES */
+@import url('./themes/light-theme.css');
+@import url('./themes/dark-theme.css');
