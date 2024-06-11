@@ -11,7 +11,7 @@ export default function Header() {
 				<figure>
 					<Book color='var(--background-images)' size={32} />
 					<figcaption>
-						<h1>Glossario</h1>
+						<h1>Glossary</h1>
 					</figcaption>
 				</figure>
 			</Link>
