@@ -1,0 +1,19 @@
+.not_found {
+	display: grid;
+	width: 100%;
+	min-height: calc(100vh - 86px);
+	place-content: center;
+	text-align: center;
+
+	& h1 {
+		margin-bottom: 16px;
+		font-size: var(--text-3xl);
+		font-weight: var(--font-bold);
+	}
+
+	& a {
+		font-size: var(--text-xl);
+		font-weight: var(--font-semibold);
+		text-decoration: underline;
+	}
+}
