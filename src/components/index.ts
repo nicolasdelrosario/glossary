@@ -1,0 +1,6 @@
+export { default as Loader } from './Loader/Loader'
+export { default as Header } from './Header/Header'
+export { default as ThemeToggleButton } from './ThemeToggleButton/ThemeToggleButton'
+export { default as Search } from './Search/Search'
+export { default as NotFound } from './NotFound/NotFound'
+export { default as Content } from './Content/Content'
