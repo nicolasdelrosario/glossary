@@ -6,6 +6,7 @@
 	place-content: center;
 
 	& h2 {
+		text-align: center;
 		font-size: var(--text-3xl);
 		font-weight: var(--font-bold);
 	}
