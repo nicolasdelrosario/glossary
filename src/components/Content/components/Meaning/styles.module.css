@@ -1,0 +1,61 @@
+.meaning {
+	margin: 32px 0;
+
+	& h3 {
+		font-size: var(--text-2xl);
+		font-weight: var(--font-semibold);
+	}
+
+	& h4 {
+		color: var(--span-color);
+		font-size: var(--text-xl);
+	}
+}
+
+.title {
+	display: flex;
+	column-gap: 16px;
+	align-items: center;
+
+	& hr {
+		flex-grow: 1;
+	}
+}
+
+.definitions {
+	margin-top: 16px;
+
+	& li {
+		display: flex;
+		flex-direction: column;
+		margin: 8px 0;
+
+		& span {
+			color: var(--span-color);
+		}
+	}
+}
+
+.synonyms {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 8px;
+	font-weight: var(--font-medium);
+}
+
+@media (width >= 768px) {
+	.meaning {
+		& h3 {
+			font-size: var(--text-3xl);
+			font-weight: var(--font-semibold);
+		}
+	}
+
+	.definitions {
+		padding: 0 24px;
+
+		& li {
+			margin: 8px;
+		}
+	}
+}
