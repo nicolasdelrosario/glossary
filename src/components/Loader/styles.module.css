@@ -1,0 +1,19 @@
+.loader {
+	grid-column: repeat(2, 1fr);
+	display: grid;
+	width: 100%;
+	min-height: calc(100vh - 156px);
+	margin-top: 70px;
+	place-content: center;
+
+	& div {
+		display: flex;
+		align-items: center;
+		column-gap: 12px;
+	}
+
+	& h2 {
+		font-size: var(--text-3xl);
+		font-weight: var(--font-bold);
+	}
+}
