@@ -1,0 +1,10 @@
+:root {
+	--hue: 0;
+	--sat: 0%;
+	--white: hsl(var(--hue) var(--sat) 100%);
+	--black: hsl(var(--hue) var(--sat) 0%);
+	--gray: hsl(var(--hue) var(--sat) 50%);
+	--light-gray: hsl(var(--hue) var(--sat) 90%);
+	--dark-gray: hsl(var(--hue) var(--sat) 20%);
+	--dark-gray-2: hsl(var(--hue) var(--sat) 15%);
+}
