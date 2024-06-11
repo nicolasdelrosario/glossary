@@ -1,0 +1,8 @@
+:root[data-theme='light'] {
+	--hue: 0deg;
+	--sat: 0%;
+	--background-color: hsl(var(--hue) var(--sat) 100%);
+	--background-images: hsl(var(--hue) var(--sat) 20%);
+	--text-color: hsl(var(--hue) var(--sat) 20%);
+	--span-color: hsl(var(--hue) var(--sat) 46%);
+}

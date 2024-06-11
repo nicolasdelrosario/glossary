@@ -1,0 +1,8 @@
+:root[data-theme='dark'] {
+	--hue: 0deg;
+	--sat: 0%;
+	--background-color: hsl(var(--hue) var(--sat) 10%);
+	--background-images: hsl(var(--hue) var(--sat) 98%);
+	--text-color: hsl(var(--hue) var(--sat) 98%);
+	--span-color: hsl(var(--hue) var(--sat) 46%);
+}
